@@ -27,3 +27,10 @@ npm install
 npm start
 # navigate to http://localhost:3000/
 ```
+
+## Notes
+
+- I had to use https://crossorigin.me/ in order to bypass CORS without having
+  to write server-side code.
+- The ToyStory image gives 404.
+- Strangely, loading IMDB images from `.surge.sh` returns 403s.
