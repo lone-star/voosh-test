@@ -2,9 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The live code is available here: http://benjamin-michel-vvoosh-test.surge.sh/
 
-Unfortunately, IMDB issues 403s when loading the images. So you will need to
-run the code yourself in order to get the full experience.
-
 ## Development environment
 
 
@@ -33,4 +30,6 @@ npm start
 - I had to use https://crossorigin.me/ in order to bypass CORS without having
   to write server-side code.
 - The ToyStory image gives 404.
-- Strangely, loading IMDB images from `.surge.sh` returns 403s.
+- Strangely, sometimes loading IMDB images from `.surge.sh` returns 403s.
+- The initial loading time is quite long (Since I am doing an HTTP request in order to access the movie list).
+  Adding a spinner would greatly improve the UX.
