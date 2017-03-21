@@ -1,0 +1,19 @@
+
+.filter-section > * {
+  display: inline-block;
+}
+
+.filter-section {
+  border-bottom: 1px solid black;
+  margin: 1rem;
+}
+
+.filter-title {
+  padding-right: 1rem;
+}
+
+.movie-item {
+  border-bottom: 1px solid black;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
